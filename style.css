@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    margin: 0;
+}
+
+.container .hello {
+    background-color: #BEF4E4;
+    display: grid;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container .img {
+    display: grid;
+    justify-items: center;
+}
