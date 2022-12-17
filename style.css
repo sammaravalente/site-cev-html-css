@@ -1,26 +1,46 @@
 body {
-    display: grid;
     margin: 0;
 }
 
+/* HELLO, WORLD! */
 .container .hello {
-    background-color: #BEF4E4;
     display: grid;
-    text-align: center;
-    font-size: 2em;
+    background-color: #BEF4E4;
 }
 
+.container .hello h1 {
+    background-color: #BEF4E4;
+    margin: 10px 15px;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+/* IMAGEM GATINHO */
 .container .img {
     display: grid;
     justify-items: center;
 }
 
+/* BEM VINDOS AO MEU SITE! */
+
 .container .welcome {
     display: grid;
+    justify-items: center;
     text-align: left;
-    font-size: 1.5em;
 }
 
-.container .welcome h2 {
-    margin: 0px 39px;
+/* CLIQUE PARA COMEÇAR O CURSO!! */
+
+.container .cta {
+    display: grid;
+    justify-items: center;
+    text-align: left;
+}
+
+/* BOTÃO COMEÇAR O CURSO */
+
+.container .button {
+    display: grid;
+    justify-items: center;
+    text-align: left;
 }
