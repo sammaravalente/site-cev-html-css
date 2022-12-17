@@ -25,16 +25,22 @@ body {
 
 .container .welcome {
     display: grid;
-    justify-items: center;
-    text-align: left;
+}
+
+.container .welcome h2 {
+    text-align: center;
+    margin: 10px 15px;
 }
 
 /* CLIQUE PARA COMEÇAR O CURSO!! */
 
 .container .cta {
     display: grid;
-    justify-items: center;
-    text-align: left;
+}
+
+.container .cta p {
+    text-align: center;
+    margin: 10px 15px;
 }
 
 /* BOTÃO COMEÇAR O CURSO */
@@ -42,5 +48,5 @@ body {
 .container .button {
     display: grid;
     justify-items: center;
-    text-align: left;
+    margin: 10px 15px;
 }
