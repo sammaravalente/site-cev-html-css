@@ -4,6 +4,7 @@ body {
 
 /* HELLO, WORLD! */
 .container .hello {
+    position: relative;
     display: grid;
     background-color: #BEF4E4;
 }
@@ -17,6 +18,7 @@ body {
 
 /* IMAGEM GATINHO */
 .container .img {
+    position: relative;
     display: grid;
     justify-items: center;
 }
@@ -25,27 +27,33 @@ body {
 
 .container .welcome {
     display: grid;
+    justify-content: center;
 }
 
 .container .welcome h2 {
-    text-align: center;
-    margin: 10px 15px;
+    text-align: left;
+    font-size: 45px;
+    margin: 10px 30px;
 }
 
 /* CLIQUE PARA COMEÇAR O CURSO!! */
 
 .container .cta {
+    position: relative;
     display: grid;
+    justify-content: center;
 }
 
 .container .cta p {
     text-align: center;
     margin: 10px 15px;
+    width: fit-content;
 }
 
 /* BOTÃO COMEÇAR O CURSO */
 
 .container .button {
+    position: relative;
     display: grid;
     justify-items: center;
     margin: 10px 15px;
