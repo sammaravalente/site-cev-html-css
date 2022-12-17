@@ -73,3 +73,13 @@ body {
     justify-items: center;
     margin: 10px 15px;
 }
+
+.container button {
+    background-color: #d83b7a;
+    font-family: "Pexico";
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    border-color: black;
+    
+}
