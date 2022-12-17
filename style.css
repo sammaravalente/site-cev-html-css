@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Pexico";
+    src: url("Urtd - Pexico-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -12,8 +19,12 @@ body {
 .container .hello h1 {
     background-color: #BEF4E4;
     margin: 10px 15px;
+    font-family: "Pexico";
     text-align: center;
     font-size: 4.5em;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
 }
 
 /* IMAGEM GATINHO */
