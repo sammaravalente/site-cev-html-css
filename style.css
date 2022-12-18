@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+.container {
+    display: grid;
+}
+
 /* HELLO, WORLD! */
 .container .hello {
     position: relative;
@@ -42,7 +46,6 @@ body {
 }
 
 .container .welcome h2 {
-    text-align: left;
     color: #5865D2;
     font-family: "Pexico";
     font-size: 40px;
@@ -81,5 +84,60 @@ body {
     color: white;
     padding: 20px;
     border-color: black;
-    
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+
+    /* IMAGEM GATINHO */
+    .container .img {
+        position: relative;
+        display: grid;
+        justify-items: center;
+    }
+
+    /* BEM VINDOS AO MEU SITE! */
+
+    .container .welcome {
+        display: grid;
+        justify-content: center;
+    }
+
+    .container .welcome h2 {
+        text-justify: distribute;
+        color: #5865D2;
+        font-family: "Pexico";
+        font-size: 40px;
+        margin: 10px 43px;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 665px) {
+
+    /* IMAGEM GATINHO */
+    .container .img {
+        position: relative;
+        display: grid;
+        justify-items: center;
+    }
+
+    /* BEM VINDOS AO MEU SITE! */
+
+    .container .welcome {
+        display: grid;
+        place-content: center;
+        justify-content: center;
+    }
+
+    .container .welcome h2 {
+        justify-items: center;
+        text-align: center;
+        color: #5865D2;
+        font-family: "Pexico";
+        font-size: 40px;
+        margin: 10px 20px;
+    }
 }
