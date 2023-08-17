@@ -9,15 +9,24 @@ body {
     margin: 0;
 }
 
+.container #cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: #BEF4E4;
+}
+
+/*
+
+
 .container {
     display: grid;
 }
 
-/* HELLO, WORLD! */
+/* HELLO, WORLD! 
 .container .hello {
     position: relative;
     display: grid;
-    background-color: #BEF4E4;
+    
 }
 
 .container .hello h1 {
@@ -31,14 +40,14 @@ body {
     -webkit-text-stroke-width: 0.5px;
 }
 
-/* IMAGEM GATINHO */
+/* IMAGEM GATINHO 
 .container .img {
     position: relative;
     display: grid;
     justify-items: center;
 }
 
-/* BEM VINDOS AO MEU SITE! */
+/* BEM VINDOS AO MEU SITE! 
 
 .container .welcome {
     display: grid;
@@ -52,7 +61,7 @@ body {
     margin: 10px 30px;
 }
 
-/* CLIQUE PARA COMEÇAR O CURSO!! */
+/* CLIQUE PARA COMEÇAR O CURSO!!
 
 .container .cta {
     position: relative;
@@ -68,7 +77,7 @@ body {
     font-family: "Pexico";
 }
 
-/* BOTÃO COMEÇAR O CURSO */
+/* BOTÃO COMEÇAR O CURSO 
 
 .container .button {
     position: relative;
@@ -88,18 +97,18 @@ body {
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES 
 
 @media (max-width: 400px) {
 
-    /* IMAGEM GATINHO */
+    /* IMAGEM GATINHO 
     .container .img {
         position: relative;
         display: grid;
         justify-items: center;
     }
 
-    /* BEM VINDOS AO MEU SITE! */
+    /* BEM VINDOS AO MEU SITE! 
 
     .container .welcome {
         display: grid;
@@ -117,14 +126,14 @@ body {
 
 @media (min-width: 430px) and (max-width: 665px) {
 
-    /* IMAGEM GATINHO */
+    /* IMAGEM GATINHO 
     .container .img {
         position: relative;
         display: grid;
         justify-items: center;
     }
 
-    /* BEM VINDOS AO MEU SITE! */
+    /* BEM VINDOS AO MEU SITE! 
 
     .container .welcome {
         display: grid;
@@ -141,3 +150,4 @@ body {
         margin: 10px 20px;
     }
 }
+*/
