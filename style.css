@@ -15,6 +15,43 @@ body {
     background-color: #BEF4E4;
 }
 
+.container #cabecalho h1 {
+    background-color: #BEF4E4;
+    margin: 10px 15px;
+    font-family: "Pexico";
+    text-align: center;
+    font-size: 4.5em;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.container #welcome, h1 {
+    display: flex;
+    align-items: center;
+    color: #5865D2;
+    font-family: "Pexico";
+    font-size: 40px;
+    margin: 10px 30px;
+}
+
+.container #cta {
+    text-align: center;
+    margin: 10px 15px;
+    width: fit-content;
+    color: #9AA593;
+    font-family: "Pexico";
+}
+
+.container button {
+    background-color: #d83b7a;
+    font-family: "Pexico";
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    border-color: black;
+}
+
 /*
 
 
@@ -30,14 +67,7 @@ body {
 }
 
 .container .hello h1 {
-    background-color: #BEF4E4;
-    margin: 10px 15px;
-    font-family: "Pexico";
-    text-align: center;
-    font-size: 4.5em;
-    color: white;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.5px;
+    
 }
 
 /* IMAGEM GATINHO 
@@ -55,10 +85,7 @@ body {
 }
 
 .container .welcome h2 {
-    color: #5865D2;
-    font-family: "Pexico";
-    font-size: 40px;
-    margin: 10px 30px;
+    
 }
 
 /* CLIQUE PARA COMEÇAR O CURSO!!
@@ -70,11 +97,7 @@ body {
 }
 
 .container .cta p {
-    text-align: center;
-    margin: 10px 15px;
-    width: fit-content;
-    color: #9AA593;
-    font-family: "Pexico";
+    
 }
 
 /* BOTÃO COMEÇAR O CURSO 
@@ -87,13 +110,7 @@ body {
 }
 
 .container button {
-    background-color: #d83b7a;
-    font-family: "Pexico";
-    font-size: 25px;
-    color: white;
-    padding: 20px;
-    border-color: black;
-
+    
 }
 
 
