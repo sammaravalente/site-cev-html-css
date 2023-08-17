@@ -12,18 +12,26 @@ body {
 .container #cabecalho {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 8em;
     background-color: #BEF4E4;
 }
 
 .container #cabecalho h1 {
     background-color: #BEF4E4;
-    margin: 10px 15px;
+    margin-inline: -153px;
     font-family: "Pexico";
     text-align: center;
-    font-size: 4.5em;
+    font-size: 4.1em;
     color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.5px;
+}
+
+.container #estrelas {
+    display: flex;
+    margin-inline: 180px;
+    height: 60px;
 }
 
 .container #welcome, h1 {
