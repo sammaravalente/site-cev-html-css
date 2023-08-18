@@ -42,7 +42,7 @@ body {
     color: #5865D2;
     font-family: "Pexico";
     font-size: 30px;
-    margin: 6px 0px;
+    margin: 15px 0px;
 }
 
 .container #cta, p{
@@ -53,132 +53,25 @@ body {
     font-size: 20px;
     color: #9AA593;
     font-family: "Pexico";
-    margin: 6px 0px;
+    margin: 18px 0px;
 }
 
-.container button {
-    background-color: #d83b7a;
+
+.container #button { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.container button{
+    background-color: #d83b7a;    
     font-family: "Pexico";
     font-size: 25px;
     color: white;
     padding: 20px;
     border-color: black;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
-/*
-
-
-.container {
-    display: grid;
-}
-
-/* HELLO, WORLD! 
-.container .hello {
-    position: relative;
-    display: grid;
-    
-}
-
-.container .hello h1 {
-    
-}
-
-/* IMAGEM GATINHO 
-.container .img {
-    position: relative;
-    display: grid;
-    justify-items: center;
-}
-
-/* BEM VINDOS AO MEU SITE! 
-
-.container .welcome {
-    display: grid;
-    justify-content: center;
-}
-
-.container .welcome h2 {
-    
-}
-
-/* CLIQUE PARA COMEÇAR O CURSO!!
-
-.container .cta {
-    position: relative;
-    display: grid;
-    justify-content: center;
-}
-
-.container .cta p {
-    
-}
-
-/* BOTÃO COMEÇAR O CURSO 
-
-.container .button {
-    position: relative;
-    display: grid;
-    justify-items: center;
-    margin: 10px 15px;
-}
-
-.container button {
-    
-}
-
-
-/* MEDIA QUERIES 
-
-@media (max-width: 400px) {
-
-    /* IMAGEM GATINHO 
-    .container .img {
-        position: relative;
-        display: grid;
-        justify-items: center;
-    }
-
-    /* BEM VINDOS AO MEU SITE! 
-
-    .container .welcome {
-        display: grid;
-        justify-content: center;
-    }
-
-    .container .welcome h2 {
-        text-justify: distribute;
-        color: #5865D2;
-        font-family: "Pexico";
-        font-size: 40px;
-        margin: 10px 43px;
-    }
-}
-
-@media (min-width: 430px) and (max-width: 665px) {
-
-    /* IMAGEM GATINHO 
-    .container .img {
-        position: relative;
-        display: grid;
-        justify-items: center;
-    }
-
-    /* BEM VINDOS AO MEU SITE! 
-
-    .container .welcome {
-        display: grid;
-        place-content: center;
-        justify-content: center;
-    }
-
-    .container .welcome h2 {
-        justify-items: center;
-        text-align: center;
-        color: #5865D2;
-        font-family: "Pexico";
-        font-size: 40px;
-        margin: 10px 20px;
-    }
-}
-*/
+/* Site pronto. */
