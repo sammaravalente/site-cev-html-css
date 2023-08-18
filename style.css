@@ -20,7 +20,7 @@ body {
 
 .container #cabecalho h1 {
     background-color: #BEF4E4;
-    margin-inline: -153px;
+    padding: 0;
     font-family: "Pexico";
     text-align: center;
     font-size: 4.1em;
@@ -30,8 +30,7 @@ body {
 }
 
 .container #estrelas {
-    display: flex;
-    margin-inline: 180px;
+    padding: 0px 20px;
     height: 60px;
 }
 
