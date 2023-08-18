@@ -35,13 +35,15 @@ body {
     height: 60px;
 }
 
-.container #welcome, h1 {
+.container #welcome {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     color: #5865D2;
     font-family: "Pexico";
-    font-size: 40px;
-    margin: 10px 30px;
+    font-size: 30px;
+    margin: 5px 0px;
 }
 
 .container #cta {
